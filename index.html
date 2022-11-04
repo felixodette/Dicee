@@ -14,10 +14,12 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/style.css">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -25,7 +27,21 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="container">
+    <h1><button class="btn">Refresh Me</button></h1>
+    <div class="dice">
+      <p>Player 1</p>
+      <img src="" alt="dice one" class="img1" id="dice1">
+    </div>
+    <div class="dice">
+      <p>Player 2</p>
+      <img src="" alt="dice two" class="img2" id="dice2">
+    </div>
+    <div class="winner">
+      <h2 id="announcement">Start</h2>
+    </div>
+  </div>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
@@ -37,5 +53,8 @@
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
+<footer>
+  www 🎲 Felix Odete 🎲 com
+</footer>
 
 </html>
