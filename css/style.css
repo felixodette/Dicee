@@ -41,3 +41,9 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
+
+.winner {
+  font-size: 4rem;
+  color: #4ecca3;
+  font-family: 'Indie Flower', cursive;
+}
